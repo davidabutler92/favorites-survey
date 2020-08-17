@@ -13,5 +13,10 @@ $(document).ready(function() {
     newArray.push(results[0]);
     newArray.push(results[2]);
     // console.log(newArray);
+    $("ul li#list1").text(results[1]);
+    $("ul li#list2").text(results[0]);
+    $("ul li#list3").text(results[2]);
+
+    $("#favList").show();
   });
 });
