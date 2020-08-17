@@ -14,17 +14,25 @@
       <div class="jumbotron">
         <h1>
           Language-Suggester
-          <small class="text-muted" id="small-title-text">Which language should you lear?:</small>
+          <small class="text-muted" id="small-title-text">Which language should you lear?</small>
         </h1>
       </div>
 
       <form id="survey">
         <div class="form-group">
           <label for="fav1">What is your favorite ice cream</label>
-          <input type="text" name="fav1" id="fav1" class="form-control">
+          <input type="text" name="fav1" id="fav1" class="form-control text-center" required>
         </div>
+        <div class="form-group">
+          <label for="fav2">What is your favorite song?</label>
+          <input type="text" name="fav2" id="fav2" class="form-control text-center" required>
+        </div>
+        <div class="form-group">
+          <label for="fav3">What is your favorite type of weather?</label>
+          <input type="text" name="fav3" id="fav3" class="form-control text-center" required>
+        </div>
+        <button id="button" type="submit" class="btn btn-primary">Submit</button>
       </form>
-
     </div>
   </body>
 </html>
